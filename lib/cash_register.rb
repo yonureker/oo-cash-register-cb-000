@@ -24,7 +24,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    @price = 0.0
+    @price.to_f = 0.0
   end
 
 end
