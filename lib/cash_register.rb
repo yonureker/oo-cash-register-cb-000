@@ -1,6 +1,6 @@
 class CashRegister
 
-  attr_accessor :discount, :total, :items
+  attr_accessor :discount, :total, :items, :title
 
   def initialize(discount = 0)
     @total = 0
@@ -20,7 +20,7 @@ class CashRegister
     else
       "There is no discount to apply."
     end
-  end
+  endl
 
   def void_last_transaction
   end
